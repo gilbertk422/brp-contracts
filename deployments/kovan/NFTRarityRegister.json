@@ -1,0 +1,261 @@
+{
+  "address": "0xE4b9EBBe9E25B82248C919C6Cd0F5464446e51f9",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "rarityValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "NftRarityStored",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getNftRarity",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint8",
+          "name": "rarityValue",
+          "type": "uint8"
+        }
+      ],
+      "name": "storeNftRarity",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x4314e42e371b9841aa62d9f95b5aa52e65f908bede571dddf59bc48403b1e948",
+  "receipt": {
+    "to": null,
+    "from": "0xA27DF20E6579aC472481F0Ea918165d24bFb713b",
+    "contractAddress": "0xE4b9EBBe9E25B82248C919C6Cd0F5464446e51f9",
+    "transactionIndex": 0,
+    "gasUsed": "683202",
+    "logsBloom": "0x00000000000080000000000000000000020000000000000000800000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000800000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020010000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x1f2c11bc9afc95ef4faf4a1b64e2134fd38719030045663ccf19106874625c3a",
+    "transactionHash": "0x4314e42e371b9841aa62d9f95b5aa52e65f908bede571dddf59bc48403b1e948",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 26269937,
+        "transactionHash": "0x4314e42e371b9841aa62d9f95b5aa52e65f908bede571dddf59bc48403b1e948",
+        "address": "0xE4b9EBBe9E25B82248C919C6Cd0F5464446e51f9",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a27df20e6579ac472481f0ea918165d24bfb713b"
+        ],
+        "data": "0x",
+        "logIndex": 0,
+        "blockHash": "0x1f2c11bc9afc95ef4faf4a1b64e2134fd38719030045663ccf19106874625c3a"
+      }
+    ],
+    "blockNumber": 26269937,
+    "cumulativeGasUsed": "683202",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "9ed73cb8aea12ac13912a00e2d28ba22",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"tokenAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"rarityValue\",\"type\":\"uint256\"}],\"name\":\"NftRarityStored\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getNftRarity\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"rarityValue\",\"type\":\"uint8\"}],\"name\":\"storeNftRarity\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Gilbert Kim @gilbertk422\",\"kind\":\"dev\",\"methods\":{\"getNftRarity(address,uint256)\":{\"details\":\"Get the rarity of a given NFT\",\"params\":{\"tokenAddress\":\"The NFT smart contract address e.g., ERC-721 standard contract\",\"tokenId\":\"The NFT's unique token id\"},\"returns\":{\"_0\":\"The the rarity of a given NFT address and id unique combination and timestamp\"}},\"owner()\":{\"details\":\"Returns the address of the current owner.\"},\"renounceOwnership()\":{\"details\":\"Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner.\"},\"storeNftRarity(address,uint256,uint8)\":{\"details\":\"Store the rarity of a given NFT\",\"params\":{\"rarityValue\":\"The rarity of a given NFT address and id unique combination using percentage i.e., 100% = 1000 to correct for precision and to save gas required when converting from category, e.g., high, medium, low to percentage in staking contract can apply rarityValue on interests directly after fetching\",\"tokenAddress\":\"The NFT smart contract address e.g., ERC-721 standard contract\",\"tokenId\":\"The NFT's unique token id\"}},\"transferOwnership(address)\":{\"details\":\"Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.\"}},\"title\":\"Registry holding the rarity value of a given NFT.\",\"version\":1},\"userdoc\":{\"events\":{\"NftRarityStored(address,uint256,uint256)\":{\"notice\":\"The Staking SC allows to stake Prizes won via lottery which can be used to increase the APY of staked tokens according to the rarity of NFT staked. For this reason, we need to hold a table that the Staking SC can query and get back the rarity value of a given NFT price (even the ones in the past).\"}},\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/NFTRarityRegister/NFTRarityRegister.sol\":\"NFTRarityRegister\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * By default, the owner account will be the one that deploys the contract. This\\n * can later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the deployer as the initial owner.\\n     */\\n    constructor() {\\n        _setOwner(_msgSender());\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        require(owner() == _msgSender(), \\\"Ownable: caller is not the owner\\\");\\n        _;\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions anymore. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby removing any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _setOwner(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\n        _setOwner(newOwner);\\n    }\\n\\n    function _setOwner(address newOwner) private {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0x6bb804a310218875e89d12c053e94a13a4607cdf7cc2052f3e52bd32a0dc50a1\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/*\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n}\\n\",\"keccak256\":\"0x95098bd1d9c8dec4d80d3dedb88a0d949fa0d740ee99f2aa466bc308216ca6d5\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/math/SafeMath.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n// CAUTION\\n// This version of SafeMath should only be used with Solidity 0.8 or later,\\n// because it relies on the compiler's built in overflow checks.\\n\\n/**\\n * @dev Wrappers over Solidity's arithmetic operations.\\n *\\n * NOTE: `SafeMath` is no longer needed starting with Solidity 0.8. The compiler\\n * now has built in overflow checking.\\n */\\nlibrary SafeMath {\\n    /**\\n     * @dev Returns the addition of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryAdd(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            uint256 c = a + b;\\n            if (c < a) return (false, 0);\\n            return (true, c);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the substraction of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function trySub(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            if (b > a) return (false, 0);\\n            return (true, a - b);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the multiplication of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryMul(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            // Gas optimization: this is cheaper than requiring 'a' not being zero, but the\\n            // benefit is lost if 'b' is also tested.\\n            // See: https://github.com/OpenZeppelin/openzeppelin-contracts/pull/522\\n            if (a == 0) return (true, 0);\\n            uint256 c = a * b;\\n            if (c / a != b) return (false, 0);\\n            return (true, c);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the division of two unsigned integers, with a division by zero flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryDiv(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            if (b == 0) return (false, 0);\\n            return (true, a / b);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers, with a division by zero flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryMod(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        unchecked {\\n            if (b == 0) return (false, 0);\\n            return (true, a % b);\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the addition of two unsigned integers, reverting on\\n     * overflow.\\n     *\\n     * Counterpart to Solidity's `+` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Addition cannot overflow.\\n     */\\n    function add(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a + b;\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, reverting on\\n     * overflow (when the result is negative).\\n     *\\n     * Counterpart to Solidity's `-` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Subtraction cannot overflow.\\n     */\\n    function sub(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a - b;\\n    }\\n\\n    /**\\n     * @dev Returns the multiplication of two unsigned integers, reverting on\\n     * overflow.\\n     *\\n     * Counterpart to Solidity's `*` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Multiplication cannot overflow.\\n     */\\n    function mul(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a * b;\\n    }\\n\\n    /**\\n     * @dev Returns the integer division of two unsigned integers, reverting on\\n     * division by zero. The result is rounded towards zero.\\n     *\\n     * Counterpart to Solidity's `/` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function div(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a / b;\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),\\n     * reverting when dividing by zero.\\n     *\\n     * Counterpart to Solidity's `%` operator. This function uses a `revert`\\n     * opcode (which leaves remaining gas untouched) while Solidity uses an\\n     * invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function mod(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return a % b;\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, reverting with custom message on\\n     * overflow (when the result is negative).\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {trySub}.\\n     *\\n     * Counterpart to Solidity's `-` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Subtraction cannot overflow.\\n     */\\n    function sub(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        unchecked {\\n            require(b <= a, errorMessage);\\n            return a - b;\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the integer division of two unsigned integers, reverting with custom message on\\n     * division by zero. The result is rounded towards zero.\\n     *\\n     * Counterpart to Solidity's `/` operator. Note: this function uses a\\n     * `revert` opcode (which leaves remaining gas untouched) while Solidity\\n     * uses an invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function div(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        unchecked {\\n            require(b > 0, errorMessage);\\n            return a / b;\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),\\n     * reverting with custom message when dividing by zero.\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {tryMod}.\\n     *\\n     * Counterpart to Solidity's `%` operator. This function uses a `revert`\\n     * opcode (which leaves remaining gas untouched) while Solidity uses an\\n     * invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function mod(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        unchecked {\\n            require(b > 0, errorMessage);\\n            return a % b;\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x8666f020bd8fc9dc14f07e2ebc52b5f236ab4cdde7c77679b08cb2f94730043b\",\"license\":\"MIT\"},\"contracts/NFTRarityRegister/INFTRarityRegister.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\n/// @title Registry holding the rarity value of a given NFT.\\n/// @author Gilbert Kim @gilbertk422\\ninterface INFTRarityRegister {\\n\\t/**\\n\\t * The Staking SC allows to stake Prizes won via lottery which can be used to increase the APY of\\n\\t * staked tokens according to the rarity of NFT staked. For this reason,\\n\\t * we need to hold a table that the Staking SC can query and get back the rarity value of a given\\n\\t * NFT price (even the ones in the past).\\n\\t */\\n\\tevent NftRarityStored(\\n\\t\\taddress indexed tokenAddress,\\n\\t\\tuint256 tokenId,\\n\\t\\tuint256 rarityValue\\n\\t);\\n\\n\\t/**\\n\\t * @dev Store the rarity of a given NFT\\n\\t * @param tokenAddress The NFT smart contract address e.g., ERC-721 standard contract\\n\\t * @param tokenId The NFT's unique token id\\n\\t * @param rarityValue The rarity of a given NFT address and id unique combination\\n\\t */\\n\\tfunction storeNftRarity(address tokenAddress, uint256 tokenId, uint8 rarityValue) external;\\n\\n\\t/**\\n\\t * @dev Get the rarity of a given NFT\\n\\t * @param tokenAddress The NFT smart contract address e.g., ERC-721 standard contract\\n\\t * @param tokenId The NFT's unique token id\\n\\t * @return The the rarity of a given NFT address and id unique combination and timestamp\\n\\t */\\n\\tfunction getNftRarity(address tokenAddress, uint256 tokenId) external view returns (uint8);\\n}\\n\",\"keccak256\":\"0x943d04b4e4a5ed74355ac4406d33689fe525dffb38e197e076db1641a517848a\",\"license\":\"MIT\"},\"contracts/NFTRarityRegister/NFTRarityRegister.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"./INFTRarityRegister.sol\\\";\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\nimport \\\"@openzeppelin/contracts/utils/math/SafeMath.sol\\\";\\n\\n/// @title Registry holding the rarity value of a given NFT.\\n/// @author Gilbert Kim @gilbertk422\\ncontract NFTRarityRegister is INFTRarityRegister, Ownable {\\n\\tusing SafeMath for uint;\\n\\n\\tmapping(address => mapping(uint256 => uint8)) private rarityRegister;\\n\\n\\t/**\\n\\t * @dev Store the rarity of a given NFT\\n\\t * @param tokenAddress The NFT smart contract address e.g., ERC-721 standard contract\\n\\t * @param tokenId The NFT's unique token id\\n\\t * @param rarityValue The rarity of a given NFT address and id unique combination\\n\\t * using percentage i.e., 100% = 1000 to correct for precision and\\n\\t * to save gas required when converting from category, e.g.,\\n\\t * high, medium, low to percentage in staking contract\\n\\t * can apply rarityValue on interests directly after fetching\\n\\t */\\n\\tfunction storeNftRarity(address tokenAddress, uint tokenId, uint8 rarityValue) external override onlyOwner {\\n\\t\\t// check tokenAddress, tokenId and rarityValue are valid\\n\\t\\t// _exists ERC721 function is internal\\n\\t\\trequire(tokenAddress != address(0), \\\"NFTRarityRegister: Token address is invalid\\\");\\n\\t\\trequire(getNftRarity(tokenAddress, tokenId) == 0, \\\"NFTRarityRegister: Rarity already set for token\\\");\\n\\t\\trequire(rarityValue >= 100, \\\"NFTRarityRegister: Value must be at least 100\\\");\\n\\n\\t\\trarityRegister[tokenAddress][tokenId] = rarityValue;\\n\\n\\t\\temit NftRarityStored(tokenAddress, tokenId, rarityValue);\\n\\t}\\n\\n\\t/**\\n\\t * @dev Get the rarity of a given NFT\\n\\t * @param tokenAddress The NFT smart contract address e.g., ERC-721 standard contract\\n\\t * @param tokenId The NFT's unique token id\\n\\t * @return The the rarity of a given NFT address and id unique combination and timestamp\\n\\t */\\n\\tfunction getNftRarity(address tokenAddress, uint256 tokenId) public override view returns (uint8) {\\n\\t\\treturn rarityRegister[tokenAddress][tokenId];\\n\\t}\\n}\",\"keccak256\":\"0x546b8c0a5998ab21def05ed0ffb0b0eef45f05bef34171b009b9804cca86261f\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061002d61002261003260201b60201c565b61003a60201b60201c565b6100fe565b600033905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b610af68061010d6000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063715018a61461005c5780638da5cb5b14610066578063f2fde38b14610084578063f9114e75146100a0578063fe6f249b146100bc575b600080fd5b6100646100ec565b005b61006e610174565b60405161007b9190610910565b60405180910390f35b61009e60048036038101906100999190610648565b61019d565b005b6100ba60048036038101906100b591906106ad565b610295565b005b6100d660048036038101906100d19190610671565b6104d5565b6040516100e391906109f4565b60405180910390f35b6100f461053d565b73ffffffffffffffffffffffffffffffffffffffff16610112610174565b73ffffffffffffffffffffffffffffffffffffffff1614610168576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161015f9061096b565b60405180910390fd5b6101726000610545565b565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6101a561053d565b73ffffffffffffffffffffffffffffffffffffffff166101c3610174565b73ffffffffffffffffffffffffffffffffffffffff1614610219576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102109061096b565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415610289576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102809061092b565b60405180910390fd5b61029281610545565b50565b61029d61053d565b73ffffffffffffffffffffffffffffffffffffffff166102bb610174565b73ffffffffffffffffffffffffffffffffffffffff1614610311576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103089061096b565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415610381576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103789061098b565b60405180910390fd5b600061038d84846104d5565b60ff16146103d0576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103c79061094b565b60405180910390fd5b60648160ff161015610417576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161040e906109ab565b60405180910390fd5b80600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600084815260200190815260200160002060006101000a81548160ff021916908360ff1602179055508273ffffffffffffffffffffffffffffffffffffffff167ff4663b0b6e20f8fcb67c9372ca6b0977c80f263a4f57cdb8f47ffa9ef1e38a0183836040516104c89291906109cb565b60405180910390a2505050565b6000600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600083815260200190815260200160002060009054906101000a900460ff16905092915050565b600033905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b60008135905061061881610a7b565b92915050565b60008135905061062d81610a92565b92915050565b60008135905061064281610aa9565b92915050565b60006020828403121561065a57600080fd5b600061066884828501610609565b91505092915050565b6000806040838503121561068457600080fd5b600061069285828601610609565b92505060206106a38582860161061e565b9150509250929050565b6000806000606084860312156106c257600080fd5b60006106d086828701610609565b93505060206106e18682870161061e565b92505060406106f286828701610633565b9150509250925092565b61070581610a20565b82525050565b6000610718602683610a0f565b91507f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160008301527f64647265737300000000000000000000000000000000000000000000000000006020830152604082019050919050565b600061077e602f83610a0f565b91507f4e465452617269747952656769737465723a2052617269747920616c7265616460008301527f792073657420666f7220746f6b656e00000000000000000000000000000000006020830152604082019050919050565b60006107e4602083610a0f565b91507f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726000830152602082019050919050565b6000610824602b83610a0f565b91507f4e465452617269747952656769737465723a20546f6b656e206164647265737360008301527f20697320696e76616c69640000000000000000000000000000000000000000006020830152604082019050919050565b600061088a602d83610a0f565b91507f4e465452617269747952656769737465723a2056616c7565206d75737420626560008301527f206174206c6561737420313030000000000000000000000000000000000000006020830152604082019050919050565b6108ec81610a52565b82525050565b6108fb81610a69565b82525050565b61090a81610a5c565b82525050565b600060208201905061092560008301846106fc565b92915050565b600060208201905081810360008301526109448161070b565b9050919050565b6000602082019050818103600083015261096481610771565b9050919050565b60006020820190508181036000830152610984816107d7565b9050919050565b600060208201905081810360008301526109a481610817565b9050919050565b600060208201905081810360008301526109c48161087d565b9050919050565b60006040820190506109e060008301856108e3565b6109ed60208301846108f2565b9392505050565b6000602082019050610a096000830184610901565b92915050565b600082825260208201905092915050565b6000610a2b82610a32565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600060ff82169050919050565b6000610a7482610a5c565b9050919050565b610a8481610a20565b8114610a8f57600080fd5b50565b610a9b81610a52565b8114610aa657600080fd5b50565b610ab281610a5c565b8114610abd57600080fd5b5056fea2646970667358221220736596d9379d3cab42d285dc09f9ebe563904c1e42737319fcaaf3a7b6bf79bb64736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c8063715018a61461005c5780638da5cb5b14610066578063f2fde38b14610084578063f9114e75146100a0578063fe6f249b146100bc575b600080fd5b6100646100ec565b005b61006e610174565b60405161007b9190610910565b60405180910390f35b61009e60048036038101906100999190610648565b61019d565b005b6100ba60048036038101906100b591906106ad565b610295565b005b6100d660048036038101906100d19190610671565b6104d5565b6040516100e391906109f4565b60405180910390f35b6100f461053d565b73ffffffffffffffffffffffffffffffffffffffff16610112610174565b73ffffffffffffffffffffffffffffffffffffffff1614610168576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161015f9061096b565b60405180910390fd5b6101726000610545565b565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6101a561053d565b73ffffffffffffffffffffffffffffffffffffffff166101c3610174565b73ffffffffffffffffffffffffffffffffffffffff1614610219576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102109061096b565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415610289576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102809061092b565b60405180910390fd5b61029281610545565b50565b61029d61053d565b73ffffffffffffffffffffffffffffffffffffffff166102bb610174565b73ffffffffffffffffffffffffffffffffffffffff1614610311576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103089061096b565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415610381576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103789061098b565b60405180910390fd5b600061038d84846104d5565b60ff16146103d0576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103c79061094b565b60405180910390fd5b60648160ff161015610417576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161040e906109ab565b60405180910390fd5b80600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600084815260200190815260200160002060006101000a81548160ff021916908360ff1602179055508273ffffffffffffffffffffffffffffffffffffffff167ff4663b0b6e20f8fcb67c9372ca6b0977c80f263a4f57cdb8f47ffa9ef1e38a0183836040516104c89291906109cb565b60405180910390a2505050565b6000600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600083815260200190815260200160002060009054906101000a900460ff16905092915050565b600033905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b60008135905061061881610a7b565b92915050565b60008135905061062d81610a92565b92915050565b60008135905061064281610aa9565b92915050565b60006020828403121561065a57600080fd5b600061066884828501610609565b91505092915050565b6000806040838503121561068457600080fd5b600061069285828601610609565b92505060206106a38582860161061e565b9150509250929050565b6000806000606084860312156106c257600080fd5b60006106d086828701610609565b93505060206106e18682870161061e565b92505060406106f286828701610633565b9150509250925092565b61070581610a20565b82525050565b6000610718602683610a0f565b91507f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160008301527f64647265737300000000000000000000000000000000000000000000000000006020830152604082019050919050565b600061077e602f83610a0f565b91507f4e465452617269747952656769737465723a2052617269747920616c7265616460008301527f792073657420666f7220746f6b656e00000000000000000000000000000000006020830152604082019050919050565b60006107e4602083610a0f565b91507f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726000830152602082019050919050565b6000610824602b83610a0f565b91507f4e465452617269747952656769737465723a20546f6b656e206164647265737360008301527f20697320696e76616c69640000000000000000000000000000000000000000006020830152604082019050919050565b600061088a602d83610a0f565b91507f4e465452617269747952656769737465723a2056616c7565206d75737420626560008301527f206174206c6561737420313030000000000000000000000000000000000000006020830152604082019050919050565b6108ec81610a52565b82525050565b6108fb81610a69565b82525050565b61090a81610a5c565b82525050565b600060208201905061092560008301846106fc565b92915050565b600060208201905081810360008301526109448161070b565b9050919050565b6000602082019050818103600083015261096481610771565b9050919050565b60006020820190508181036000830152610984816107d7565b9050919050565b600060208201905081810360008301526109a481610817565b9050919050565b600060208201905081810360008301526109c48161087d565b9050919050565b60006040820190506109e060008301856108e3565b6109ed60208301846108f2565b9392505050565b6000602082019050610a096000830184610901565b92915050565b600082825260208201905092915050565b6000610a2b82610a32565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600060ff82169050919050565b6000610a7482610a5c565b9050919050565b610a8481610a20565b8114610a8f57600080fd5b50565b610a9b81610a52565b8114610aa657600080fd5b50565b610ab281610a5c565b8114610abd57600080fd5b5056fea2646970667358221220736596d9379d3cab42d285dc09f9ebe563904c1e42737319fcaaf3a7b6bf79bb64736f6c63430008000033",
+  "devdoc": {
+    "author": "Gilbert Kim @gilbertk422",
+    "kind": "dev",
+    "methods": {
+      "getNftRarity(address,uint256)": {
+        "details": "Get the rarity of a given NFT",
+        "params": {
+          "tokenAddress": "The NFT smart contract address e.g., ERC-721 standard contract",
+          "tokenId": "The NFT's unique token id"
+        },
+        "returns": {
+          "_0": "The the rarity of a given NFT address and id unique combination and timestamp"
+        }
+      },
+      "owner()": {
+        "details": "Returns the address of the current owner."
+      },
+      "renounceOwnership()": {
+        "details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+      },
+      "storeNftRarity(address,uint256,uint8)": {
+        "details": "Store the rarity of a given NFT",
+        "params": {
+          "rarityValue": "The rarity of a given NFT address and id unique combination using percentage i.e., 100% = 1000 to correct for precision and to save gas required when converting from category, e.g., high, medium, low to percentage in staking contract can apply rarityValue on interests directly after fetching",
+          "tokenAddress": "The NFT smart contract address e.g., ERC-721 standard contract",
+          "tokenId": "The NFT's unique token id"
+        }
+      },
+      "transferOwnership(address)": {
+        "details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+      }
+    },
+    "title": "Registry holding the rarity value of a given NFT.",
+    "version": 1
+  },
+  "userdoc": {
+    "events": {
+      "NftRarityStored(address,uint256,uint256)": {
+        "notice": "The Staking SC allows to stake Prizes won via lottery which can be used to increase the APY of staked tokens according to the rarity of NFT staked. For this reason, we need to hold a table that the Staking SC can query and get back the rarity value of a given NFT price (even the ones in the past)."
+      }
+    },
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 589,
+        "contract": "contracts/NFTRarityRegister/NFTRarityRegister.sol:NFTRarityRegister",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 6236,
+        "contract": "contracts/NFTRarityRegister/NFTRarityRegister.sol:NFTRarityRegister",
+        "label": "rarityRegister",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint8))"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_mapping(t_uint256,t_uint8))": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => mapping(uint256 => uint8))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_uint256,t_uint8)"
+      },
+      "t_mapping(t_uint256,t_uint8)": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => uint8)",
+        "numberOfBytes": "32",
+        "value": "t_uint8"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      },
+      "t_uint8": {
+        "encoding": "inplace",
+        "label": "uint8",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}

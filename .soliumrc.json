@@ -1,0 +1,10 @@
+{
+  "extends": "solium:recommended",
+  "rules": {
+    "quotes": ["error", "double"],
+    "no-empty-blocks": "off",
+    "indentation": ["error", 2],
+    "max-len": "off",
+    "no-constant": ["error"]
+  }
+}
